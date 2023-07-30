@@ -1,11 +1,8 @@
-// import axios from "axios";
+const { capitalizeWords, makeMoney } = require("./utils");
+const Person = require("./Person");
 
-// async function getPost() {
-//   const res = await axios.get("https://jsonplaceholder.typicode.com/posts/1");
-//   console.log(res.data);
-// }
+console.log(capitalizeWords("hello world")); // Hello World
+console.log(makeMoney(100)); // $100
 
-// getPost();
-
-console.log("hello");
-console.log("hello");
+const person1 = new Person("Shery", 22);
+person1.greet(); // Hello, my name is John and I am 30
