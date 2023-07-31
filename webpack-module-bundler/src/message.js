@@ -1,6 +1,6 @@
 const message = {
   id: 1,
-  text: "Hello World",
+  text: "Hello Webpack",
 };
 
 export default message;
